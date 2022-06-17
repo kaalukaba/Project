@@ -1,0 +1,110 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Vegetable Menu </title> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> 
+<script>
+$( "#header-plugin" ).load( "https://vivinantony.github.io/header-plugin/", function() {
+  $("a.back-to-link").attr("href", "https://thelittletechie.blogspot.com/2014/09/how-to-place-text-or-icons-inside.html#tlt")  
+});
+</script>
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+} 
+  .navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #04AA6D;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+} 
+button:hover 
+{   
+       opacity: 0.6;   
+}   
+ 
+.container 
+{   
+       padding: 25px;   
+       background-color: lightblue; 
+       font-size: 100px; 
+} 
+button 
+{   
+       background-color: #4CAF50;   
+       width: 100%;  
+       color: orange;   
+       padding: 15px;   
+       margin: 10px 0px;   
+       border: none;   
+       cursor: pointer;   
+} 
+.calendar-text { 
+  margin-top: .1em;
+}
+strong
+{
+    text-align: center;
+}
+</style>   
+</head>    
+<body> 
+    <div class="navbar" align="center">
+      <a class="active" href="HomePage.html"><i class="fa fa-fw fa-home" style='font-size:100px;'></i>Home</a>
+      <a href="AddToWordMapper.php"><i class="fa fa-fw fa-plus" style='font-size:100px;'></i> Add</a>
+      <a href="FruitsMenu.html"><i class="fas fa-apple-alt" style='font-size:100px;'></i>Fruits</a>
+      <a href="VegetablesMenu.html"><i class="fas fa-carrot" style='font-size:100px;'></i> Vegetables</a>
+      <a href="FlowerMenu.html"><i class="fas fa-seedling" style='font-size:100px;'></i>Flower</a>
+      <a href="TreeMenu.html"><i class="fas fa-cannabis" style='font-size:100px;'></i>Trees</a>
+    </div>   
+    <center> <h1> Word Mapper For Vegetables</h1> </center>
+          
+            <div style="margin-top: 100px; text-align: center"> 
+
+              <span class="fa-stack fa-3x">
+              <a href="VegetableMapper.php"><i class="fa fa-search fa-stack-2x" style='font-size:200px;color:red'></i></a>
+              <h4><br>View</h4>
+              </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="fa-stack fa-3x">
+              <a href="#"><i class="fa fas fa-file fa-stack-2x" style='font-size:200px;color:red'></i></a>
+              <h4 style="margin-top: 90px"><br>Update</h4>
+              </span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="fa-stack fa-3x">
+              <a href="#"><i class="fa fas fa-minus fa-stack-2x" style='font-size:200px;color:red'></i></a>
+                <h4 style="text-align: center; margin-top: 100px;">&nbsp;&nbsp;&nbsp;Delete</h4>
+              </span>
+              </div>
+</body>     
+</html>
